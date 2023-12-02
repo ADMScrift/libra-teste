@@ -1,0 +1,147 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "🦆DuckDuck Scripts🦆",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+local BloxTab = GUI:Tab{
+	Name = "🍎Blox Fruit🍏",
+	Icon = "rbxassetid://15517878502"
+}
+
+BloxTab:Button{
+	Name = "Fai Fao",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua")()
+    end
+}
+
+BloxTab:Button{
+	Name = "Tsuoscripts",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+    end
+}
+
+BloxTab:Button{
+	Name = "LS Zee Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+    end
+}
+BloxTab:Button{
+	Name = "MTriet Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    end
+}
+
+BloxTab:Button{
+	Name = "HOHO Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end
+}
+
+BloxTab:Button{
+	Name = "Domadic Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+    end
+}
+
+BloxTab:Button{
+	Name = "Uranium hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+    end
+}
+
+BloxTab:Button{
+	Name = "ThunderZ Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThunderZ-05/HUB/main/TestKey')))()
+    end
+}
+BloxTab:Button{
+	Name = "Zamex Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexHub/main/Zamex_PC.lua'))()
+    end
+}
+
+BloxTab:Button{
+	Name = "Kaitun hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ZaqueHub/BloxFruitPC/05507b61c0092197a3b6233ca305f2dfacd20050/KaitunZaque.lua'))()
+    end
+}
+
+BloxTab:Button{
+	Name = "Pado Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+    end
+}
+
+BloxTab:Button{
+	Name = "Fruit Hub",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    end
+}
+
+BloxTab:Button{
+	Name = "TP Chest",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GUXX0001/Hub/main/tpchestfix.lua"))()
+    end
+}
+
+local FPSTab = GUI:Tab{
+	Name = "⚡FPS⚡",
+	Icon = "rbxassetid://15517876913"
+}
+
+FPSTab:Button{
+	Name = "Ant AFK",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/SZkHcmKR"))()
+    end
+}
+
+
+FPSTab:Button{
+	Name = "Rejoin",
+	Description = nil,
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ADMScrift/FPS/main/rejoin"))()
+    end
+}
+
+FPSTab:Button{
+	Name = "Remover Texturas",
+	Description = nil,
+	Callback = function()
+        for i,v in next, (workspace:GetDescendants()) do             if v:IsA("Part") then v.Material = Enum.Material.SmoothPlastic             end             end
+    end
+}
